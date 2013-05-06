@@ -1,0 +1,45 @@
+Challenges
+
+
+				New Methods added
+
+- Drawing.java
+void removeAll();
+	Removes all strokes.
+
+void rotateColor(int step);
+	Rotates colors of the drawing.
+
+void rotate(int angle, int centerX, int centerY);
+	Rotates the drawing through angle.
+
+void scale(float scaleX, float scaleY, int centerX, int centerY);
+	Scales the drawing by scaleX and scaleY.
+
+- DrawingDemo.java
+void drawMyWheel(Pen pen, int startAngle);
+	Draw a wheel made of many alternating color squares.
+
+void rotateWheelDemo();
+	Draws a wheel made of many alternating color squares and rotates colors of the wheel.
+
+void rotateColor(Pen pen, int step);
+	Rotates colors of the drawing of pen through the number of step.
+
+void changeWithStandardJavaColor(Pen pen, boolean cover);
+	Changes color of drawing with standard Java Colors
+
+void drawTreeDemo();
+	Draws a tree and shows horizontal and vertical flipping, rotation, scaling, movement of drawing and color rotation.
+
+void drawLeaf(Pen pen, float scale);
+	Draws a leaf to the pen.
+
+void drawTree(Pen pen, int x, int y);
+	Draws a tree on (x, y)
+
+
+				New Class
+
+- Main.java
+It completes the program to make it runnable.
